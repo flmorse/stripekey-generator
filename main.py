@@ -23,6 +23,5 @@ def short_key():
     
 while True:
   long_key()
-  #time.sleep(0.5) #if your heroku account keeps getting banned
+  time.sleep(0.5) #if your heroku account keeps getting banned
   short_key()
-    
