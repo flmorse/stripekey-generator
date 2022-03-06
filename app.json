@@ -1,28 +1,18 @@
-  
 {
-    "name": "Stripe Key Generator",
-    "description": "A Program that generates and checks Stripe keys 24x7. This was made only for Educational Purposes, I'm not responsible for the damages cause by you",
-    "keywords": [
-        "telegram",
-        "stripe",
-        "checker"
-    ],
-    "repository": "https://github.com/iam-NVN/stripekey-generator",
+    "scripts": {},
     "env": {
-        "FORWARD_ID": {
-            "description": "Your UserID/Chat ID to forward live sk keys to",
-            "required": true,
-            "value": ""
-        },
-        "BOT_TOKEN": {
-            "description": "Bot token, get it from @BotFather.",
-            "required": true,
-            "value": ""
+        "BOT_TOKEN": "5298000987:AAGrUAdZPUqEMOnCYwUwX8f-tL7SjBTSheo",
+        "FORWARD_ID": "831054990"
+    },
+    "formation": {
+        "StripeGen": {
+            "quantity": 1
         }
     },
-    "buildpacks": [
-        {
+    "addons": [],
+    "buildpacks": [{
             "url": "heroku/python"
         }
-    ]
+    ],
+    "stack": "heroku-20"
 }
